@@ -99,7 +99,7 @@ const createCard = (img) => {
   const back = cardElement('div', 'card-back card-face')
   const front = cardElement('div', 'card-front card-face')
 
-  front.style.backgroundImage = `url('../assets/imgs/${img}.svg')`
+  front.style.backgroundImage = `url('assets/imgs/${img}.svg')`
   front.style.backgroundRepeat = 'no-repeat'
   front.style.backgroundColor = 'var(--gray)'
   front.style.backgroundPosition = 'center'
